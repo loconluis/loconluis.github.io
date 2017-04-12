@@ -1,0 +1,15 @@
+html,
+body{
+	height: 100%;
+}
+.header{
+	background-color: #ff0000;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 90px;
+	letter-spacing: 2px;
+}
+.about{
+	background-color: #f6f6f6;
+	height: 100%;
+}

@@ -2,14 +2,50 @@ html,
 body{
 	height: 100%;
 }
+/*--------------CSS for HEADER---------------------*/
 .header{
-	background-color: #ff0000;
+	background-color: #ffffff;
 	height: 100%;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 90px;
 	letter-spacing: 2px;
+	color: ##000000;
 }
+.header h1{
+	font-size: 90px;
+}
+.header h2{
+	font-family: 'Open Sans', sans-serif;
+}
+.social{
+	text-align: right;
+	font-size: 20px !important;
+	overflow: hidden;
+	margin-top: 15px;
+}
+.social a{
+	display: inline-block;
+	padding: 0 15px;
+	color: #000000;
+}
+.tagline{
+	position: absolute;
+	top: 40%;
+	left: 15%;
+	text-align: center;
+}
+
+/*--------------CSS for ABOUT---------------------*/
 .about{
-	background-color: #f6f6f6;
-	height: 100%;
+}
+/*--------------CSS for SKILL---------------------*/
+.skills{
+
+}
+/*--------------CSS for CONTACT---------------------*/
+.contact{
+
+}
+/*--------------CSS for FOOTER---------------------*/
+.footer{
+
 }

@@ -33,6 +33,25 @@ body{
 	left: 15%;
 	text-align: center;
 }
+.down{
+	position: absolute;
+	top: auto;
+	right: auto;
+	left: 15px;
+	width: 100%;
+	text-align: center;
+	bottom: 85px;
+}
+.btn-default{
+	color: #ffffff;
+	background-color: #ff1967;
+}
+.btn-circle{
+	border-radius: 30px !important;
+	font-size: 14px;
+	padding: 12px 30px !important;
+	line-height: 18px;
+}
 
 /*--------------CSS for ABOUT---------------------*/
 .about{

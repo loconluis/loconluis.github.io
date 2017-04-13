@@ -1,14 +1,14 @@
 html,
 body{
 	height: 100%;
+	font-family: 'Montserrat', sans-serif;
 }
 /*--------------CSS for HEADER---------------------*/
 .header{
 	background-color: #ffffff;
 	height: 100%;
-	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 2px;
-	color: ##000000;
+	color: #000000;
 }
 .header h1{
 	font-size: 90px;
@@ -65,6 +65,24 @@ body{
 
 }
 /*--------------CSS for FOOTER---------------------*/
-.footer{
-
+.last-color{
+	color: #ffffff;
+	background-color: #000000;
+	padding: 20px 0;
+}
+.last-text{
+	font-family: 'Open Sans', sans-serif;
+}
+.heart{
+	color: #ff0000;
+}
+.social-foot{
+	text-align: right;
+	font-size: 20px !important;
+	overflow: hidden;
+}
+.social-foot a{
+	display: inline-block;
+	padding: 0 15px;
+	color: #ffffff;
 }

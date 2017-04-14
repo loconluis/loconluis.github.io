@@ -9,6 +9,10 @@ body{
 	height: 100%;
 	letter-spacing: 2px;
 	color: #000000;
+	position: relative;
+	max-width: 1280px;
+	margin: 0 auto;
+	opacity: 1;
 }
 .header h1{
 	font-size: 90px;
@@ -30,14 +34,14 @@ body{
 .tagline{
 	position: absolute;
 	top: 40%;
-	left: 15%;
+	left: 11.55%;
 	text-align: center;
 }
 .down{
 	position: absolute;
 	top: auto;
 	right: auto;
-	left: 15px;
+	left: 25px;
 	width: 100%;
 	text-align: center;
 	bottom: 85px;
@@ -56,9 +60,16 @@ body{
 /*--------------CSS for ABOUT---------------------*/
 .about{
 }
-/*--------------CSS for SKILL---------------------*/
-.skills{
-
+section.about>div.container-fluid>div.container{
+	background-color: #333;
+	color: #ffffff;
+}
+/*--------------CSS for WORK---------------------*/
+.work{
+}
+section.work>div.container-fluid>div.container{
+	background-color: #333;
+	color: #ffffff;
 }
 /*--------------CSS for CONTACT---------------------*/
 .contact{
@@ -67,7 +78,7 @@ body{
 /*--------------CSS for FOOTER---------------------*/
 .last-color{
 	color: #ffffff;
-	background-color: #000000;
+	background-color: #333;
 	padding: 20px 0;
 }
 .last-text{

@@ -67,6 +67,13 @@ h3{
 	padding: 20px 0;
 	text-align: center;
 }
+.profile{
+	padding-top: 10px;
+}
+img{
+	height: 300px;
+	width: 300px;
+}
 /*--------------CSS for ABOUT---------------------*/
 #wrap{
 	padding-bottom: 30px;
@@ -82,8 +89,22 @@ h4{
 	font-size: 20px;
 	font-weight: bold;
 }
-#left-side *{
+#left-side h4{
 	padding-bottom: 3px;
+}
+p{
+	padding-bottom: 10px;
+}
+/*---------SKILL CSS--------*/
+#skill div{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#sked-content{
+	padding: 40px 0;
+}
+#skill-content *{
+	padding-bottom: 15px;
 }
 /*-----------PROJECTS--------------*/
 #wrap, #project{

@@ -1,20 +1,22 @@
 html,
 body{
 	height: 100%;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
 }
 /*--------------CSS for HEADER---------------------*/
 .header{
 	background-color: #ffffff;
 	height: 100%;
 	letter-spacing: 2px;
-	color: #000000;
 	position: relative;
 	max-width: 1280px;
 	margin: 0 auto;
 	opacity: 1;
 }
 .header h1{
+	font-family: 'Montserrat', sans-serif;
 	font-size: 90px;
 }
 .header h2{
@@ -45,6 +47,7 @@ body{
 	width: 100%;
 	text-align: center;
 	bottom: 85px;
+	font-family: 'Montserrat', sans-serif;
 }
 .btn-default{
 	color: #ffffff;
@@ -56,32 +59,45 @@ body{
 	padding: 12px 30px !important;
 	line-height: 18px;
 }
-
+h3{
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+.title{
+	padding: 20px 0;
+	text-align: center;
+}
 /*--------------CSS for ABOUT---------------------*/
-.about{
+#wrap{
+	padding-bottom: 30px;
 }
-section.about>div.container-fluid>div.container{
-	background-color: #333;
-	color: #ffffff;
+#wrap div{
+	padding-left: 30px;
+	padding-right: 30px;
 }
-/*--------------CSS for WORK---------------------*/
-.work{
+#about-content{
+	padding-bottom: 30px;
 }
-section.work>div.container-fluid>div.container{
-	background-color: #333;
-	color: #ffffff;
+h4{
+	font-size: 20px;
+	font-weight: bold;
 }
-/*--------------CSS for CONTACT---------------------*/
-.contact{
-
+#left-side *{
+	padding-bottom: 3px;
+}
+/*-----------PROJECTS--------------*/
+#wrap, #project{
+	background: #eee;
 }
 /*--------------CSS for FOOTER---------------------*/
 .last-color{
 	color: #ffffff;
 	background-color: #333;
-	padding: 20px 0;
+	padding-top: 15px;
+	padding-bottom: 5px;
 }
 .last-text{
+	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
 }
 .heart{
@@ -96,4 +112,40 @@ section.work>div.container-fluid>div.container{
 	display: inline-block;
 	padding: 0 15px;
 	color: #ffffff;
+}
+/*--------------GALLERY-----------------*/
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #ff1967;
+    border-radius: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #6f0000;
+    border-radius: 0px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ff1967;
+
+}
+.btn-default:active .filter-button:active ::selection
+{
+    background-color: #ff1967;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
 }

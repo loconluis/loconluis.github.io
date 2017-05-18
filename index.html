@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Luis Locon | Resumen</title>
 	<!--fonts-->
-	<script src="https://use.fontawesome.com/dea9887162.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:300" rel="stylesheet">
 	<!--Bootstrap section-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -43,95 +42,124 @@
 		</div>
 	</header>
 	<!--About-->
-	<section id="about" class="about">
-		<div class="container-fluid">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<h2>About.</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-						<div class="row">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	<section id="wrap" class="container">
+		<div class="row title">
+			<div class="col-md-12">
+				<h3>About me.</h3>
+			</div>
+		</div>
+		<div class="row" id="about-content">
+			<div class="col-md-6">
+				<!--foto-->
+				<figure>
+					<img src="" alt="Perfil Luis Locon">
+				</figure>
+			</div>
+			<div class="col-md-6" id="left-side">
+				<h4><i class="fa fa-user-circle-o" aria-hidden="true"></i> Full Name.</h4>
+				<p>Luis Alfredo Locon Peña</p>
+				<p>Hola, mi nombre es Luis Locon, y soy un entusiasta de la web,
+				en busca de oportunidades para aprender y colaborar en diferentes proyectos.</p>
+				<h4><i class="fa fa-envelope" aria-hidden="true"></i> Email:</h4>
+				<p>luis.locon@gmail.com</p>
+			</div>
+		</div>
+	</section>
+	<section id="skill" class="container">
+		<div class="row title">
+			<div class="col-md-12">
+				<h3>Education and Skills.</h3>
+			</div>
+		</div>
+		<div class="row" id="sked-content">
+			<div class="col-md-6">
+				<dl>
+					<dt>Universidad de San Carlos de Guatemala</dt>
+					<dd>Ingenieria en Ciencias y Sistemas</dd>
+					<dt>EduTec - Campus Tec</dt>
+					<dd>Front-End Diplomado</dd>
+					<dt>Free-Code-Camp</dt>
+					<dd><a href="https://www.freecodecamp.com/loconluis" target="_blank">Front-End Development Certification</a></dd>
+					<dt>Platzi</dt>
+					<dd><a href="https://platzi.com/@luislocon/" target="_blank">Front-End Fundamentals</a></dd>
+				</dl>
+			</div>
+			<div class="col-md-6">
+				<!--skill content-->
+				<dl>
+					<dt>HTML</dt>
+					<dt>CSS3</dt>
+					<dt>Javascript</dt>
+					<dt>Responsive Design</dt>
+					<dt>Bootstrap</dt>
+				</dl>
+			</div>
+		</div>
+	</section>
+	<section id="project" class="container">
+		<div class="row title">
+			<div class="col-md-12">
+				<h3>Projects.</h3>
+			</div>
+		</div>
+		<div class="row wow fadeIn" data-wow-delay="0.3s">
+      <div class="col-md-12">
+        <button class="btn btn-default filter-button" data-filter="all">All</button>
+        <button class="btn btn-default filter-button" data-filter="websites">Websites</button>
+        <button class="btn btn-default filter-button" data-filter="webapp">Web Apps</button>
+        <button class="btn btn-default filter-button" data-filter="android">Android Projects</button>
+        <button class="btn btn-default filter-button" data-filter="ios">iOs Projects</button>
+      </div>
+    </div>
+		<div class="row wow fadeIn" data-wow-delay="0.4s">
+      <!--1-->
+      <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter websites">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
 
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<h4>Luis Alfredo Locon Peña</h4>
-								<h4>Guatemala, September 8th 1993</h4>
-								<p>I'm a 23-year-old developer born in Guatemala. Passionate about the web, learn and magic code.</p>
-								<p>luis.locon@gmail.com</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-						<dl class="education">
-							<dt>Engineering in Sciences and Systems</dt>
-							<dd>Universidad de San Carlos de Guatemala</dd>
-							<dt>Front-End</dt>
-							<dd>EduTec. Campus Tec 2, zona 4</dd>
-							<dd>Udacity Courses</dd>
-							<dt>Web Design</dt>
-							<dd>Udemy</dd>
-						</dl>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--SKILLS-->
-	<section class="skill">
-		<div class="container-fluid">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<h2>Skill.</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<p>HTML5</p>
-						<p>CSS3</p>
-						<p>Javascript</p>
-						<p>Frameworks</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="work">
-		<div class="container-fluid">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<h2>Projects.</h2>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--CONTACT-->
-	<section class="contact">
-		<div class="container-fluid">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<h2>Contact me!</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-						<!--TEXT-->
-					</div>
-					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-						<!--FORM-->
-					</div>
-				</div>
-			</div>
-		</div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter webapp">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter websites">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ios">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter android">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ios">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter android">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ios">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ios">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter websites">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter android">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter webapp">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+    </div>
 	</section>
 	<!--Footer-->
 	<footer>
@@ -157,5 +185,7 @@
 	<!-- Latest compiled and minified JavaScript & jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/dea9887162.js"></script>
+	<script src="js/main.js" charset="utf-8"></script>
 </body>
 </html>

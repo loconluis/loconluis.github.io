@@ -6,7 +6,7 @@ body{
 	letter-spacing: 2px;
 }
 /*--------------CSS for HEADER---------------------*/
-.header{
+/*.header{
 	background-color: #ffffff;
 	height: 100%;
 	letter-spacing: 2px;
@@ -48,7 +48,35 @@ body{
 	text-align: center;
 	bottom: 85px;
 	font-family: 'Montserrat', sans-serif;
+}*/
+#head{
+	height: 100%;
+	letter-spacing: 2px;
 }
+#head h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 90px;
+}
+#tagline{
+	margin-top: 10%;
+}
+#tagline *{
+	padding-bottom: 25px;
+}
+#tagdown{
+	margin-top: 100px;
+	font-family: 'Montserrat', sans-serif;
+}
+#social *{
+	padding: 10px 7px;
+	font-size: 20px !important;
+	overflow: hidden;
+}
+#social a{
+	display: inline-block;
+	color: #000000;
+}
+
 .btn-default{
 	color: #ffffff;
 	background-color: #ff1967;
@@ -169,4 +197,93 @@ p{
 .gallery_product
 {
     margin-bottom: 30px;
+}
+
+/*--------PREFOOOT-------*/
+#see-more{
+	padding: 30px 30px;
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+}
+#see-more a{
+	color: #1f1f1f;
+}
+#see-more a:hover{
+	color: #000000;
+}
+/*-------MEDIA QUERYS------*/
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+		#tagline{
+			margin-top: 30%;
+		}
+		.profile{
+			margin-bottom: 50px;
+		}
+
+}
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		#head h1{
+			font-size: 50px;
+		}
+		#tagline{
+			margin-top: 35%;
+		}
+		#social{
+			text-align: center;
+		}
+		.social-foot{
+			text-align: center;
+		}
+		.profile{
+			margin-bottom: 50px;
+		}
+
+}
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		body{
+			font-size: 14px;
+		}
+		#head h1{
+			font-size: 40px;
+		}
+		#tagline{
+			margin-top: 25%;
+		}
+		#tagdown{
+			margin-top: 60px;
+		}
+		#social{
+			text-align: center;
+		}
+		.profile{
+			margin-bottom: 50px;
+		}
+		.social-foot{
+			text-align: center;
+		}
+}
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
 }

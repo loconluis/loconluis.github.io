@@ -128,6 +128,10 @@ p{
 	padding-left: 30px;
 	padding-right: 30px;
 }
+#skill div.progress{
+	padding-left: 0px;
+	padding-right: 0px;
+}
 #sked-content{
 	padding: 40px 0;
 }
@@ -136,7 +140,10 @@ p{
 }
 /*-----------PROJECTS--------------*/
 #wrap, #project{
-	background: #eee;
+	background: #dadada;
+}
+.progress-bar{
+	background: #333333;
 }
 /*--------------CSS for FOOTER---------------------*/
 .last-color{

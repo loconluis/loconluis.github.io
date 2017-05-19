@@ -16,3 +16,13 @@ if ($(".filter-button").removeClass("active")) {
   }
   $(this).addClass("active");
 });
+
+//Scroll click button
+$("#check").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#project").offset().top},
+        'slow');
+});
+
+//Init WOWJs
+new WOW().init();

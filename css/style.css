@@ -148,6 +148,7 @@ p{
 .last-text{
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
+	color:#FFFFFF;
 }
 .heart{
 	color: #ff0000;
@@ -167,7 +168,7 @@ p{
 {
     font-size: 18px;
     border: 1px solid #ff1967;
-    border-radius: 0px;
+    border-radius: 30px;
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 30px;
@@ -177,7 +178,7 @@ p{
 {
     font-size: 18px;
     border: 1px solid #6f0000;
-    border-radius: 0px;
+    border-radius: 30px;
     text-align: center;
     color: #ffffff;
     background-color: #ff1967;

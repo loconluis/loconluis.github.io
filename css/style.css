@@ -5,6 +5,24 @@ body{
 	font-size: 20px;
 	letter-spacing: 2px;
 }
+
+.a-estratek {
+	text-decoration: none;
+	color: white;
+	padding: 0 !important;
+}
+.a-estratek:hover, .a-estratek:focus {
+	text-decoration: none;
+	color: #ff1967;
+	cursor: pointer;
+}
+
+.bold-span {
+	background-color: black;
+	color: white;
+	padding: 5px 15px !important;
+	border-radius: 30px;
+}
 /*--------------CSS for HEADER---------------------*/
 /*.header{
 	background-color: #ffffff;
